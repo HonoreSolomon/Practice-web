@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #151b29;
+}
+
+button {
+  background: none;
+  border: 2px solid coral;
+  font-size: 1em;
+  padding: 1em 2em;
+  color: coral;
+  transition: box-shadow 0.15s, border-color 0.15s, transform 0.15s, color 0.15s,
+    border-radius 0.15s;
+}
+
+button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em aquamarine;
+  border-color: aquamarine;
+  color: white;
+  transform: translateY(-0.5em);
+  cursor: pointer;
+  border-radius: 200%;
+}
